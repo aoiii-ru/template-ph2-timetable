@@ -1,0 +1,9 @@
+.DS_Store
+.vscode/
+.idea/
+.env
+.playwright-cli/
+src/vendor/
+src/node_modules/
+src/.env
+src/database/*.sqlite
