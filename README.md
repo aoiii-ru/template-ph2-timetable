@@ -85,6 +85,12 @@ docker compose exec app php artisan migrate
 - PostgreSQL の接続情報は、データベース名 `timetable`、ユーザー `posse`、パスワード `password`、ポート `5432` です。
 - 止めるときは `docker compose down` です。データはボリュームに残ります。授業データを最初の状態に戻したいときは `docker compose down -v` でボリュームごと消してから、もう一度起動します。
 
+## AI エージェントを使うとき
+
+GitHub Copilot・Codex・Claude Code のどれを使ってもかまいません。どのツールも `AGENTS.md` に書いたルールを読んで作業します（Claude Code は `CLAUDE.md` から `AGENTS.md` を読み込みます）。ルールを足したいときは `AGENTS.md` に書いてください。
+
+AI エージェントがコミットを作ると、メッセージの最後に `AI: ツール名` が付きます。PR の本文にも、使ったツールにチェックを付けてください。
+
 ## 教材サイト
 
 課題の進め方と提出のしかたは教材サイトにあります。
