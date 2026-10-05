@@ -68,4 +68,4 @@ docker compose exec app php artisan migrate
 
 課題の進め方と提出のしかたは教材サイトにあります。
 
-https://posse-ph2.pages.dev/
+https://posse-ph2.posse.workers.dev/
